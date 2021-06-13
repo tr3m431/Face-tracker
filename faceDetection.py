@@ -24,7 +24,7 @@ while(True):
 	print("Sussy baka" if len(faces) >= 1 else " ")
 
 	# Draw a rectangle around the faces
-	for (x, y, width, height in faces:
+	for (x, y, width, height in faces):
 		rectangle(frame, (x, y), (x+width, y+height), (0, 255, 0), 2)
 
 
